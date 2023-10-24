@@ -11,7 +11,8 @@ import projImg6 from '../assets/img/ProjImg6.png';
 import projImg7 from '../assets/img/ProjImg7.png';
 import projImg8 from '../assets/img/ProjImg8.png';
 import projImg9 from '../assets/img/ProjImg9.png';
-
+import projImg10 from '../assets/img/ProjImg10.png';
+import projImg11 from '../assets/img/ProjImg11.png';
 
 import "animate.css";
 import TrackVisibility from 'react-on-screen';
@@ -76,6 +77,18 @@ export const Projects = () => {
       imgUrl: projImg9,
       siteUrl: "https://aryansarang.github.io/tindog-project/"
     },
+    {
+      title: "Country Search",
+      description: "Using react debounce for auto API calling on typing",
+      imgUrl: projImg10,
+      siteUrl: "https://aryansarang.github.io/CountryAPI/"
+    },
+    {
+      title: "Selnox",
+      description: "React custom designed form, date picker and select-search dropdown",
+      imgUrl: projImg11,
+      siteUrl: "aryansarang.github.io/Selnox/"
+    },
   ];
   return (
     <section className="project" id="projects">
@@ -131,7 +144,7 @@ export const Projects = () => {
                         }
                       </Row>
                     </Tab.Pane>
-                    <Tab.Pane eventKey="third"><p>Will updated soon</p></Tab.Pane>
+                    <Tab.Pane eventKey="third"><p>Coming Soon...</p></Tab.Pane>
                   </Tab.Content>}
               </TrackVisibility>
             </Tab.Container>
