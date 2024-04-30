@@ -162,7 +162,19 @@ export const Projects = () => {
                         }
                       </Row>
                     </Tab.Pane>
-                    <Tab.Pane eventKey="third"><p>Coming Soon...</p></Tab.Pane>
+                    <Tab.Pane eventKey="third">
+                      <Row>
+                        {
+                          projects3.map((project, index) => {
+                            return (
+                              <ProjectCard
+                                key={index} {...project}
+                              />
+                            )
+                          })
+                        }
+                      </Row>
+                    </Tab.Pane>
                   </Tab.Content>}
               </TrackVisibility>
             </Tab.Container>
