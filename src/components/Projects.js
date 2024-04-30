@@ -13,6 +13,8 @@ import projImg8 from '../assets/img/ProjImg8.png';
 import projImg9 from '../assets/img/ProjImg9.png';
 import projImg10 from '../assets/img/ProjImg10.png';
 import projImg11 from '../assets/img/ProjImg11.png';
+import projImg12 from '../assets/img/ProjImg12.png';
+import projImg13 from '../assets/img/ProjImg13.png';
 
 import "animate.css";
 import TrackVisibility from 'react-on-screen';
@@ -21,23 +23,24 @@ import TrackVisibility from 'react-on-screen';
 export const Projects = () => {
   const projects1 = [
     {
+      title: "Kuldhara Investments",
+      description: "Visually appealing Wordpress investment website with custom coded features to show the insights for an engaging user experience",
+      imgUrl: projImg12,
+      siteUrl: "https://kuldharainvestment.com/"
+    },
+    {
+      title: "Latin Dance India",
+      description: "Visually stunning WordPress dance teaching website to show immersive learning experiences and celebrate a vibrant community of dancers.",
+      imgUrl: projImg13,
+      siteUrl: "https://perfectdigital26.wpcomstaging.com/"
+    },
+    {
       title: "Blog Page",
       description: "Developed using React.js and Bootstrap, with a Figma design as reference.",
       imgUrl: projImg1,
       siteUrl: "https://aryansarang.github.io/yamak.ai/"
     },
-    {
-      title: "Dashboard",
-      description: "Developed using React.js and Bootstrap",
-      imgUrl: projImg2,
-      siteUrl: "https://aryansarang.github.io/SidebarUI/"
-    },
-    {
-      title: "Workout Tracker",
-      description: "Developed using React.js and Bootstrap with Rapid API integration",
-      imgUrl: projImg3,
-      siteUrl: projImg3
-    },
+
     {
       title: "Online IDE",
       description: "HTML, CSS, Javasript online compiler with auto suggestion and syntax highlighting",
@@ -52,7 +55,7 @@ export const Projects = () => {
     },
     {
       title: "Pari Course",
-      description: "Frontend Course selling website build using React.js, Bootstrap",
+      description: "Course selling website page build using React.js, Bootstrap",
       imgUrl: projImg6,
       siteUrl: "https://aryansarang.github.io/Pari/"
     }
@@ -60,17 +63,24 @@ export const Projects = () => {
 
   const projects2 = [
     {
+      title: "Dashboard",
+      description: "Developed using React.js and Bootstrap",
+      imgUrl: projImg2,
+      siteUrl: "https://aryansarang.github.io/SidebarUI/"
+    },
+    {
+      title: "Workout Tracker",
+      description: "Developed using React.js and Bootstrap with Rapid API integration",
+      imgUrl: projImg3,
+      siteUrl: projImg3
+    },
+    {
       title: "Travel Home Page",
       description: "Developed using simple HTML, CSS, JavaScript and Bootstrap",
       imgUrl: projImg7,
       siteUrl: "https://aryansarang.github.io/Travel-page/"
     },
-    {
-      title: "HTML Canvas exercise",
-      description: "Developed using HTML Canvas and some math",
-      imgUrl: projImg8,
-      siteUrl: "https://aryansarang.github.io/RectInCanvas/"
-    },
+
     {
       title: "Tindog Home Page",
       description: "Developed using HTML, CSS and JavaScript",
@@ -88,6 +98,14 @@ export const Projects = () => {
       description: "React custom designed form, date picker and select-search dropdown",
       imgUrl: projImg11,
       siteUrl: "aryansarang.github.io/Selnox/"
+    },
+  ];
+  const projects3 = [
+    {
+      title: "HTML Canvas exercise",
+      description: "Developed using HTML Canvas and some math",
+      imgUrl: projImg8,
+      siteUrl: "https://aryansarang.github.io/RectInCanvas/"
     },
   ];
   return (
