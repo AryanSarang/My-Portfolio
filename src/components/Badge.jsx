@@ -77,6 +77,7 @@ function Band({ maxSpeed = 50, minSpeed = 10 }) {
             ang.copy(card.current.angvel())
             rot.copy(card.current.rotation())
             card.current.setAngvel({ x: ang.x, y: ang.y - rot.y * 0.15, z: ang.z })
+            card.current.setAngvel({ x: ang.x, y: ang.y - rot.y * 0.15, z: ang.z })
         }
     })
 
@@ -108,6 +109,7 @@ function Band({ maxSpeed = 50, minSpeed = 10 }) {
 
                         <mesh geometry={nodes.card_0.children[0].geometry}>
                             <meshPhysicalMaterial map={materials.base.map} map-anisotropy={16} clearcoat={1} clearcoatRoughness={0.15} roughness={0.3} metalness={0.8} />
+                            <meshPhysicalMaterial map={materials.base.map} map-anisotropy={16} clearcoat={1} clearcoatRoughness={0.15} roughness={0.3} metalness={0.8} />
                         </mesh>
                         <mesh geometry={nodes.clip_1.children[0].geometry} material={materials.metal} material-roughness={0.3} />
                         <mesh geometry={nodes.clamp_2.children[0].geometry} material={materials.metal} />
@@ -115,9 +117,10 @@ function Band({ maxSpeed = 50, minSpeed = 10 }) {
                 </RigidBody>
             </group>
             <mesh ref={band} >
-                <meshLineGeometry />
-                <meshLineMaterial color="white" depthTest={false} resolution={[width, height]} useMap map={texture} repeat={[-3, 1]} lineWidth={1} />
-            </mesh>
-        </>
-    )
+                <mesh ref={band} >
+                    <meshLineGeometry />
+                    <meshLineMaterial color="white" depthTest={false} resolution={[width, height]} useMap map={texture} repeat={[-3, 1]} lineWidth={1} />
+                </mesh>
+            </>
+            )
 }
