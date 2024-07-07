@@ -29,7 +29,7 @@ export const NavBar = () => {
   }
   return (
     <Router>
-      <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
+      <Navbar expand="lg" className={scrolled ? "scrolled user-select-none" : "user-select-none"}>
         <Container>
           <Navbar.Brand href="#home">
             <img src={logo} alt='title' />
