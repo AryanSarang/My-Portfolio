@@ -1,4 +1,4 @@
-import React, { useState,useRef } from "react"
+import React, { useState, useRef } from "react"
 import { Col, Container, Row } from "react-bootstrap";
 import contactImg from '../assets/img/contact-img.svg';
 import emailjs from '@emailjs/browser';
@@ -32,12 +32,12 @@ export const Contact = () => {
             }, (error) => {
                 console.log(error.text);
                 setStatus({
-                            succes: false,
-                            message: "Something went wrong, please try again later.",
-                          });
+                    succes: false,
+                    message: "Something went wrong, please try again later.",
+                });
             });
-          
-            setFormDetails(formInitialDetails);
+
+        setFormDetails(formInitialDetails);
     }
 
 
@@ -69,7 +69,7 @@ export const Contact = () => {
             <Container>
                 <Row className="align-items-center">
                     <Col md={6}>
-                        <img src={contactImg} alt="contact us" />
+                        <img src={contactImg} alt="contact us" className="contactImg" />
                     </Col>
                     <Col md={6}>
                         <h2>Get In Touch</h2>
@@ -91,8 +91,8 @@ export const Contact = () => {
                                     <input type="tel" value={formDetails.phone}
                                         placeholder="Phone No." name="phone" onChange={(e) => onFormUpdate('phone', e.target.value)} />
                                 </Col>
-                                <Col>
-                                    <textarea row="6" value={formDetails.message} placeholder="Message" name ="message" onChange={(e) => onFormUpdate('message', e.target.value)} />
+                                <Col className="textAreaCol">
+                                    <textarea row="6" value={formDetails.message} placeholder="Message" name="message" onChange={(e) => onFormUpdate('message', e.target.value)} />
                                     <button type="submit"><span>{buttonText}</span></button>
                                 </Col>
                                 {
