@@ -112,7 +112,6 @@ function Band({ maxSpeed = 50, minSpeed = 10 }) {
                         <mesh geometry={nodes.clip_1.children[0].geometry} material={materials.metal} material-roughness={0.3} />
                         <mesh geometry={nodes.clamp_2.children[0].geometry} material={materials.metal} />
                     </group>
-
                 </RigidBody>
             </group>
             <mesh ref={band} position={[0, 0, 0]}>
