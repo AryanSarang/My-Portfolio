@@ -15,7 +15,7 @@ export default function Badge() {
     return (
         <Canvas camera={{ position: [0, 0, 13], fov: 25 }} gl={{ alpha: true }}>
             <ambientLight intensity={Math.PI} />
-            <Physics interpolate gravity={[0, -20, 0]} timeStep={1 / 60}>
+            <Physics interpolate gravity={[0, -30, 0]} timeStep={1 / 60}>
                 <Band />
             </Physics>
             <Environment blur={0.75}>
