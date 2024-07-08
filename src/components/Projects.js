@@ -24,7 +24,7 @@ import TrackVisibility from 'react-on-screen';
 export const Projects = () => {
   const projects1 = [
     {
-      title: "Consultantion website",
+      title: "Consultation website",
       description: "MERN consultation website, consultant can register themselves and start getting orders from users",
       imgUrl: projImg15,
       siteUrl: projImg15
