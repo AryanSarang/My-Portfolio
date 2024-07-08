@@ -43,7 +43,7 @@ export const Banner = () => {
         }
     }
     return (
-        <Router>
+        <>
             <section className="banner" id="home">
                 <Container>
                     <Row className="align-items-center">
@@ -68,6 +68,6 @@ export const Banner = () => {
                     <Badge />
                 </div>
             </section>
-        </Router>
+        </>
     )
 };

@@ -28,7 +28,7 @@ export const NavBar = () => {
     setActiveLink(value);
   }
   return (
-    <Router>
+    <>
       <Navbar expand="lg" className={scrolled ? "scrolled user-select-none" : "user-select-none"}>
         <Container>
           <Navbar.Brand href="#home">
@@ -61,7 +61,7 @@ export const NavBar = () => {
             </span>
           </Navbar.Collapse>
         </Container>
-      </Navbar></Router>
+      </Navbar></>
   )
 }
 

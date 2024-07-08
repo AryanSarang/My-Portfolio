@@ -8,7 +8,7 @@ import { Projects } from './components/Projects';
 import { Contact } from './components/Contact';
 import { Footer } from './components/Footer';
 import { initGA, logPageView } from './analytics';
-import { BrowserRouter as Router, useLocation } from 'react-router-dom';
+import { useLocation } from 'react-router-dom';
 
 
 function App() {
@@ -16,17 +16,16 @@ function App() {
     initGA();
   }, []);
   return (
-    <Router>
-      <div className="App">
-        <RouteTracker />
-        <NavBar />
-        <Banner />
-        <Skills />
-        <Projects />
-        <Contact />
-        <Footer />
-      </div>
-    </Router>
+
+    <div className="App">
+      <RouteTracker />
+      <NavBar />
+      <Banner />
+      <Skills />
+      <Projects />
+      <Contact />
+      <Footer />
+    </div>
   );
 }
 const RouteTracker = () => {
