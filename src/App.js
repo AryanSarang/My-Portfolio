@@ -1,5 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.css';
-import React, { useEffect } from 'react';
+
+import { initGA, logPageView } from './analytics';
+import React, { useEffect, useState } from 'react';
 import './App.css';
 import { NavBar } from './components/NavBaar';
 import { Banner } from './components/Banner';
@@ -7,18 +9,19 @@ import { Skills } from './components/Skills';
 import { Projects } from './components/Projects';
 import { Contact } from './components/Contact';
 import { Footer } from './components/Footer';
-import { initGA, logPageView } from './analytics';
 import { useLocation } from 'react-router-dom';
 
-
 function App() {
+  const [isInitialized, setIsInitialized] = useState(false);
+
   useEffect(() => {
     initGA();
+    setIsInitialized(true);
   }, []);
   return (
 
     <div className="App">
-      <RouteTracker />
+      {isInitialized && <RouteTracker />}
       <NavBar />
       <Banner />
       <Skills />
