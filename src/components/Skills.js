@@ -10,7 +10,7 @@ import colorSharp from '../assets/img/color-sharp.png';
 export const Skills = () => {
     const responsive = {
         superLargeDesktop: {
-            
+
             breakpoint: { max: 4000, min: 3000 },
             items: 5
         },
@@ -40,31 +40,31 @@ export const Skills = () => {
                             <p>Unleashing the Power of Web Technology: Crafting Engaging, Interactive, and User-Centric Experiences.</p>
                             <Carousel responsive={responsive} infinite={true} className="skill-slider owl-carousel owl-theme">
                                 <div className="item">
-                                    <img src={meter1} alt="React" />
+                                    <img src={meter1} alt="percentage in React" />
                                     <h5>React</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={meter1 } alt="Bootstrap" />
+                                    <img src={meter1} alt="percentage in Bootstrap" />
                                     <h5>Bootstrap</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={ meter3} alt="Javascript" />
+                                    <img src={meter3} alt="percentage in Javascript" />
                                     <h5>Javascript</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={meter1 } alt="API & Authorization" />
+                                    <img src={meter1} alt="percentage in API & Authorization" />
                                     <h5>API & Authorization</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={ meter2} alt="Node.js" />
+                                    <img src={meter2} alt="percentage in Node.js" />
                                     <h5>Node.js</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={meter2 } alt="Express" />
+                                    <img src={meter2} alt="percentage in Express" />
                                     <h5>Express</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={meter3 } alt="MongoDB" />
+                                    <img src={meter3} alt="percentage in MongoDB" />
                                     <h5>MongoDB</h5>
                                 </div>
                             </Carousel>
