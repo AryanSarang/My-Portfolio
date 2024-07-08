@@ -53,9 +53,9 @@ export const Banner = () => {
                                     <div >
                                         <span className="tagline user-select-none">Building the web, one pixel at a time.</span>
                                         <h1 className="user-select-none">{"Hi I'm Aryan Sarang "}</h1>
-                                        <h1 className="runningText"><span className="wrap">{text}</span></h1>
+                                        <h1 className="runningText user-select-none"><span className="wrap">{text}</span></h1>
                                         <p className="user-select-none">Experienced web developer with a passion for crafting user-friendly and visually stunning websites, utilizing cutting-edge technologies to deliver seamless digital experiences.</p>
-                                        <HashLink to='#connect' className="letsConnect">
+                                        <HashLink to='#connect' className="letsConnect user-select-none">
                                             <button>Let's connect <ArrowRightCircle size={25} /></button>
                                         </HashLink>
                                     </div>}

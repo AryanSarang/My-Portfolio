@@ -11,7 +11,7 @@ export const ProjectCard = ({ title, description, imgUrl, siteUrl }) => {
       <div className="proj-imgbx" onClick={openNewTab}>
         <img src={imgUrl} alt="project-screenshot" />
 
-        <div className="proj-txtx" >
+        <div className="proj-txtx user-select-none" >
           <h4>{title}</h4>
           <span>{description}</span>
         </div>
