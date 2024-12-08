@@ -111,13 +111,33 @@ nav.navbar {
   transition: 0.32s ease-in-out;
 }
 
+#basic-navbar-nav {
+  flex-basis: unset;
+  flex-grow: unset;
+}
+
 nav.navbar.scrolled {
   padding: 0px 0;
   background-color: #121212;
 }
 
+
 nav.navbar a.navbar-brand {
-  width: 9%;
+  width: 5%;
+}
+
+nav.navbar.scrolled a.navbar-brand {
+  width: 4%;
+}
+
+@media(max-width:540px) {
+  nav.navbar a.navbar-brand {
+    width: 8%;
+  }
+
+  nav.navbar.scrolled a.navbar-brand {
+    width: 7%;
+  }
 }
 
 nav.navbar .navbar-nav .nav-link.navbar-link {
@@ -141,7 +161,6 @@ span.navbar-text {
 
 .social-icon {
   display: inline-block;
-  margin-left: 14px;
 }
 
 .social-icon a {
@@ -504,7 +523,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .project .nav.nav-pills .nav-link {
-  background-color: transparent;
+  background: transparent;
   border-radius: 0;
   padding: 17px 0;
   color: #fff;
@@ -517,6 +536,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   text-align: center;
   z-index: 0;
 }
+
 
 .project .nav.nav-pills .nav-link::before {
   content: "";
@@ -717,7 +737,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /************ Footer Css ************/
 .footer {
   padding: 5% 0 50px 0;
-  background-image: url('./assets/img/footer-bg.png');
+  background-image: url('./assets/img/footer-bg.webp');
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -793,7 +813,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .footer img {
-  width: 26%;
+  width: 15%;
 }
 
 .footer p {

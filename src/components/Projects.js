@@ -1,7 +1,7 @@
 import React from "react"
 import { Col, Container, Row, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from './ProjectCard';
-import colorSharp2 from '../assets/img/color-sharp2.png';
+import colorSharp2 from '../assets/img/color-sharp2.webp';
 import projImg1 from '../assets/img/ProjImg1.webp';
 import projImg2 from '../assets/img/ProjImg2.webp';
 import projImg3 from '../assets/img/ProjImg3.webp';
@@ -45,7 +45,7 @@ export const Projects = () => {
       title: "Latin Dance India",
       description: "Visually stunning WordPress dance teaching website to show immersive learning experiences and celebrate a vibrant community of dancers.",
       imgUrl: projImg13,
-      siteUrl: "https://perfectdigital26.wpcomstaging.com/"
+      siteUrl: "https://latindanceindia.com/"
     },
 
 
@@ -138,13 +138,13 @@ export const Projects = () => {
             <Tab.Container id="projects-tabs" defaultActiveKey="first">
               <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                 <Nav.Item>
-                  <Nav.Link eventKey="first">Tab one</Nav.Link>
+                  <Nav.Link eventKey="first">Tab 1</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link eventKey="second">Tab two</Nav.Link>
+                  <Nav.Link eventKey="second">Tab 2</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link eventKey="third" >Tab three</Nav.Link>
+                  <Nav.Link eventKey="third" >Tab 3</Nav.Link>
                 </Nav.Item>
 
               </Nav>
