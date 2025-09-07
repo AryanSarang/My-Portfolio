@@ -54,7 +54,7 @@ export const Banner = () => {
                                         <span className="tagline user-select-none">Building the web, one pixel at a time.</span>
                                         <h1 className="user-select-none">{"Hi I'm Aryan Sarang "}</h1>
                                         <h1 className="runningText user-select-none"><span className="wrap">{text}</span></h1>
-                                        <p className="user-select-none">This is the part where I'm supposed to describe my experience and how good I am, blah blah, but fuck that shit.</p>
+                                        <p className="user-select-none">Experienced developer with a portfolio of 80+ websites, specializing in MERN, Shopify, WordPress, and AI-powered automation.</p>
                                         <HashLink to='#connect' className="letsConnect user-select-none">
                                             <button>Let's connect <ArrowRightCircle size={25} /></button>
                                         </HashLink>

@@ -17,6 +17,11 @@ import projImg12 from '../assets/img/ProjImg12.webp';
 import projImg13 from '../assets/img/ProjImg13.webp';
 import projImg14 from '../assets/img/ProjImg14.webp';
 import projImg15 from '../assets/img/ProjImg15.webp';
+import projImg16 from '../assets/img/ProjImg16.webp';
+import projImg17 from '../assets/img/ProjImg17.webp';
+import projImg18 from '../assets/img/ProjImg18.webp';
+
+
 import "animate.css";
 import TrackVisibility from 'react-on-screen';
 
@@ -24,17 +29,83 @@ import TrackVisibility from 'react-on-screen';
 export const Projects = () => {
   const projects1 = [
     {
-      title: "Consultation website",
-      description: "MERN consultation website, consultant can register themselves and start getting orders from users",
-      imgUrl: projImg15,
-      siteUrl: projImg15
+      title: "Idaho",
+      description: "Fashion brand shopify store",
+      imgUrl: projImg17,
+      siteUrl: "https://idaho-o.com/"
     },
     {
-      title: "Yaar ki Car",
-      description: "Car Rental website using wordpress with cars collection, booking with restricted date and time, email invoice and live order tracking",
-      imgUrl: projImg14,
-      siteUrl: "https://yaarkicar.com/"
+      title: "Fine Silver Jewels",
+      description: "Jewelry brand shopify store",
+      imgUrl: projImg16,
+      siteUrl: "https://finesilverjewels.com/"
     },
+    {
+      title: "Look Mama",
+      description: "Kids Care brand website using Shopify",
+      imgUrl: projImg14,
+      siteUrl: "https://lookmama.in/"
+    },
+
+    {
+      title: "Latin Dance India",
+      description: "Visually stunning WordPress dance teaching website to show immersive learning experiences and celebrate a vibrant community of dancers.",
+      imgUrl: projImg13,
+      siteUrl: "https://latindanceindia.com/"
+    },
+    {
+      title: "Dazzlez",
+      description: "E-commerce Jewelry website using Shopify",
+      imgUrl: projImg6,
+      siteUrl: "https://dazzlez.co/"
+    },
+    {
+      title: "Jamwai Journeys",
+      description: "A travel agency website using Wordpress",
+      imgUrl: projImg9,
+      siteUrl: "https://jamwaijourneys.com/"
+    }
+  ];
+
+  const projects2 = [
+    {
+      title: "Marudhar Mewa",
+      description: "A FMCG brand website using Shopify",
+      imgUrl: projImg2,
+      siteUrl: "https://marudharmewa.com/"
+    },
+    {
+      title: "NIdhi Skincare",
+      description: "Skincare brand website using Shopify",
+      imgUrl: projImg3,
+      siteUrl: "https://nidhiiskincare.com/"
+    },
+    {
+      title: "Pomcha",
+      description: "Fashion brand website using Shopify",
+      imgUrl: projImg7,
+      siteUrl: "https://www.pomchajaipur.com/"
+    },
+    {
+      title: "Palla",
+      description: "A fashion brand store using Shopify",
+      imgUrl: projImg5,
+      siteUrl: "https://pallajaipur.com/",
+    },
+    {
+      title: "Your Jersey",
+      description: "Shopify sports merchandise store",
+      imgUrl: projImg10,
+      siteUrl: "https://yourjersey.in/"
+    },
+    {
+      title: "Agashe",
+      description: "Shopify multi-designer store",
+      imgUrl: projImg11,
+      siteUrl: "https://www.agashestore.com/"
+    },
+  ];
+  const projects3 = [
     {
       title: "Kuldhara Investments",
       description: "Visually appealing Wordpress investment website with custom coded features to show the insights for an engaging user experience",
@@ -42,46 +113,10 @@ export const Projects = () => {
       siteUrl: "https://kuldharainvestment.com/"
     },
     {
-      title: "Latin Dance India",
-      description: "Visually stunning WordPress dance teaching website to show immersive learning experiences and celebrate a vibrant community of dancers.",
-      imgUrl: projImg13,
-      siteUrl: "https://latindanceindia.com/"
-    },
-
-
-    {
-      title: "Online IDE",
-      description: "HTML, CSS, Javasript online compiler with auto suggestion and syntax highlighting",
-      imgUrl: projImg4,
-      siteUrl: "https://aryansarang.github.io/Online-Compiler/"
-    },
-
-    {
-      title: "Pari Course",
-      description: "Course selling website page build using React.js, Bootstrap",
-      imgUrl: projImg6,
-      siteUrl: "https://aryansarang.github.io/Pari/"
-    }
-  ];
-
-  const projects2 = [
-    {
-      title: "Dashboard",
-      description: "Developed using React.js and Bootstrap",
-      imgUrl: projImg2,
-      siteUrl: "https://aryansarang.github.io/SidebarUI/"
-    },
-    {
-      title: "Workout Tracker",
-      description: "Developed using React.js and Bootstrap with Rapid API integration",
-      imgUrl: projImg3,
-      siteUrl: projImg3
-    },
-    {
-      title: "Travel Home Page",
-      description: "Developed using simple HTML, CSS, JavaScript and Bootstrap",
-      imgUrl: projImg7,
-      siteUrl: "https://aryansarang.github.io/Travel-page/"
+      title: "Dubai Visa & Tours",
+      description: "Visa consultancy website using Wordpress",
+      imgUrl: projImg18,
+      siteUrl: "https://dubaivisaandtours.com"
     },
     {
       title: "Blog Page",
@@ -89,39 +124,27 @@ export const Projects = () => {
       imgUrl: projImg1,
       siteUrl: "https://aryansarang.github.io/yamak.ai/"
     },
-
     {
-      title: "Country Search",
-      description: "Using react debounce for auto API calling on typing",
-      imgUrl: projImg10,
-      siteUrl: "https://aryansarang.github.io/CountryAPI/"
+      title: "Online IDE",
+      description: "HTML, CSS, Javasript online compiler with auto suggestion and syntax highlighting",
+      imgUrl: projImg4,
+      siteUrl: "https://aryansarang.github.io/Online-Compiler/"
     },
-    {
-      title: "Selnox",
-      description: "React custom designed form, date picker and select-search dropdown",
-      imgUrl: projImg11,
-      siteUrl: "aryansarang.github.io/Selnox/"
-    },
-  ];
-  const projects3 = [
     {
       title: "HTML Canvas challenge",
       description: "Developed using HTML Canvas and some math",
       imgUrl: projImg8,
       siteUrl: "https://aryansarang.github.io/RectInCanvas/"
     },
+
+
     {
-      title: "Tindog Home Page",
-      description: "Developed using HTML, CSS and JavaScript",
-      imgUrl: projImg9,
-      siteUrl: "https://aryansarang.github.io/tindog-project/"
+      title: "Consultation website",
+      description: "MERN consultation website, consultant can register themselves and start getting orders from users",
+      imgUrl: projImg15,
+      siteUrl: projImg15
     },
-    {
-      title: "E-commerce",
-      description: "A fullstack project developed using MERN and JWT authentication",
-      imgUrl: projImg5,
-      siteUrl: projImg5,
-    },
+
   ];
   return (
     <section className="project" id="projects">
