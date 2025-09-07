@@ -1,2 +1,1 @@
-
-![image](https://github.com/AryanSarang/My-Portfolio/assets/100875078/30861a2c-8a6b-4412-9daa-fb64efaa095f)
+![aryansarang com](https://github.com/user-attachments/assets/9fd1f585-f51b-484a-8485-ad27fc1b6f38)
