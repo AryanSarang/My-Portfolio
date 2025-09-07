@@ -20,6 +20,7 @@ import projImg15 from '../assets/img/ProjImg15.webp';
 import projImg16 from '../assets/img/ProjImg16.webp';
 import projImg17 from '../assets/img/ProjImg17.webp';
 import projImg18 from '../assets/img/ProjImg18.webp';
+import projImg20 from '../assets/img/ProjImg20.webp';
 
 
 import "animate.css";
@@ -28,6 +29,12 @@ import TrackVisibility from 'react-on-screen';
 
 export const Projects = () => {
   const projects1 = [
+    {
+      title: "Gleam Productions",
+      description: "A creative agency website using Wordpress",
+      imgUrl: projImg20,
+      siteUrl: "https://gleamproductions.in/"
+    },
     {
       title: "Idaho",
       description: "Fashion brand shopify store",
@@ -45,13 +52,6 @@ export const Projects = () => {
       description: "Kids Care brand website using Shopify",
       imgUrl: projImg14,
       siteUrl: "https://lookmama.in/"
-    },
-
-    {
-      title: "Latin Dance India",
-      description: "Visually stunning WordPress dance teaching website to show immersive learning experiences and celebrate a vibrant community of dancers.",
-      imgUrl: projImg13,
-      siteUrl: "https://latindanceindia.com/"
     },
     {
       title: "Dazzlez",
@@ -119,10 +119,10 @@ export const Projects = () => {
       siteUrl: "https://dubaivisaandtours.com"
     },
     {
-      title: "Blog Page",
-      description: "Developed using React.js and Bootstrap, with a Figma design as reference.",
-      imgUrl: projImg1,
-      siteUrl: "https://aryansarang.github.io/yamak.ai/"
+      title: "Latin Dance India",
+      description: "Visually stunning WordPress dance teaching website to show immersive learning experiences and celebrate a vibrant community of dancers.",
+      imgUrl: projImg13,
+      siteUrl: "https://latindanceindia.com/"
     },
     {
       title: "Online IDE",
